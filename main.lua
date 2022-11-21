@@ -35,6 +35,19 @@ function love.update() --love.update manipule les variables
     ball.x = ball.x + ball.vitesse_x
     ball.y = ball.y + ball.vitesse_y
 --Sur l'update on veut que la position de la balle soit mise à jour en boucle.
+
+    if ball.y > love.graphics.getHeight() - ball.hauteur then --Si coordonnée balle sur y > hauteur de l'écran (axe y) - hauteur de balle, alors
+        ball.vitesse_y = ball.vitesse_y * -1                  --On inverse la vitesse en y
+    end
+    if ball.x > love.graphics.getWidth() - ball.largeur then
+        ball.vitesse_x = ball.vitesse_x * -1
+    end
+    if ball.y < 0 then
+        ball.vitesse_y = ball.vitesse_y * -1 
+    end
+    if ball.x < 0 then
+        ball.vitesse_x = ball.vitesse_x * -1 
+    end
 end
 
 function love.draw() --love.draw dessine le jeu
