@@ -48,6 +48,18 @@ function love.update() --love.update manipule les variables
     if ball.x < 0 then
         ball.vitesse_x = ball.vitesse_x * -1 
     end
+
+    --la balle a atteint la raquette ?
+    if ball.x <= pad.x + pad.largeur then
+        --Tester si la balle est sur la raquette
+        --bord bas balle > bord haut raquette ?
+        --et
+        --bord haut balle > bord bas raquette ?
+        if ball.y + ball.hauteur > pad.y and ball.y < pad.y + pad.hauteur then
+            ball.vitesse_x = -ball.vitesse_x
+            ball.x = pad.x + pad.largeur
+        end
+    end
 end
 
 function love.draw() --love.draw dessine le jeu
