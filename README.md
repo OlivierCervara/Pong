@@ -1,4 +1,4 @@
-# Pong
+# Pong v1
 L'objectif est de programmer une reproduction la plus fidèle possible au jeux vidéo célèbre Pong.
 
 (voir l'image ci-dessous).
