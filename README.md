@@ -1,5 +1,5 @@
 # Pong v1
-L'objectif est de programmer une reproduction la plus fidèle possible au jeux vidéo célèbre Pong.
+L'objectif est de programmer une reproduction la plus fidèle possible du célèbre jeux vidéo Pong.
 
 (voir l'image ci-dessous).
 
