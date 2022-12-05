@@ -6,7 +6,7 @@ L'objectif est de programmer une reproduction la plus fidèle possible au jeux v
 ![screenshot du jeu original](./img/jeu-original.jpg)
 
 ## Historique
--Pong est un des premiers jeux vidéo d'arcade et le premier jeu vidéo d'arcade de sport. Il a été imaginé par l'Américain Nolan Bushnell et développé par Allan Alcorn, et la société Atari le commercialise à partir de novembre 1972.
+Pong est un des premiers jeux vidéo d'arcade et le premier jeu vidéo d'arcade de sport. Il a été imaginé par l'Américain Nolan Bushnell et développé par Allan Alcorn, et la société Atari le commercialise à partir de novembre 1972.
 
 ## Notes sur la réalisation du projet
 - L'integration est faite sur l'éditeur ZeroBraneStudio prenant directement en charge des interpreteurs utilisés pour coder du jeux vidéo.
@@ -30,4 +30,4 @@ L'objectif est de programmer une reproduction la plus fidèle possible au jeux v
 - Le joueur 2 (raquette de droite) déplace sa raquette en utilisant la flèche directionnelle haut du clavier pour diriger sa raquette vers le haut et la flèche directionnelle bas du clavier pour diriger sa raquette vers le bas
 
 ## Notes
-- Il s'agit présentement de la v1 du jeux. A l'avenir, des améliorations seront apportées afin de se rapprocher du rendu final, autant visuel (un affichage du score fidèle au jeu original) que du point de vue des mécaniques de jeu (comme la prise de vitesse progressive de la balle).
+Il s'agit présentement de la v1 du jeux. A l'avenir, des améliorations seront apportées afin de se rapprocher du rendu final, autant visuel (un affichage du score fidèle au jeu original) que du point de vue des mécaniques de jeu (comme la prise de vitesse progressive de la balle).
